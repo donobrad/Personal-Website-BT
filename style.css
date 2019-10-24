@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(195, 177, 163);
+}
+
+.header-container {
+    background-color: black;
+    padding: 20px 10px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.header {
+    border: 3px solid black;
+    justify-content: space-around;
+    display: flex;
+    width: 1400px;
+    padding: 10px;
+    background-color: rgb(43, 73, 43);
+    font-size: 40px;
+    align-items: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    height: 500px;
+    width: 350px;
+}
+
+li {
+    font-size: 30px;
+}
+
+.fab {
+    font-size: 30px;
+}
+
+.fa-pinterest {
+    color: red;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linkedin {
+    color: darkblue;
+}
+
+.logoBig {
+    font-size: 100px;
+}
+
+footer {
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 0;
+    bottom: 0;
+}
+
+.fa-envelope {
+    font-size: 30px;
+}
+
+#direction {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
