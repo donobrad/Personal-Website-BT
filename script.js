@@ -9,7 +9,7 @@ $(document).ready(function () {
             let myRepo = JSON.parse(this.responseText);
             var repo = "";
             for (i = 0; i < myRepo.length; i++) {
-                repo += "<li>" + "1.  " + myRepo[i].name + "</li>";
+                repo += "<li>" + myRepo[i].name + "</li>";
             }
             document.getElementById("gitHubRepo").innerHTML = repo;
         }
